@@ -1,0 +1,99 @@
+body.html {
+    margin: 0;
+    padding: 0;
+}
+
+#main {
+    width: 100%;
+    height: 100%;
+    background-color: lightgray;
+    display: flex;
+    flex-direction: row;
+}
+
+#left {
+    height: 100%;
+    background-color: lightgray;
+    padding: 170px 100px;
+    width: 500px;
+}
+
+
+#right {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: lightgray;
+}
+
+@media screen and (max-width: 1000px) {
+    #main {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.right_items {
+    width: 500px;
+    padding: 170px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} 
+
+#login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    padding: 20px;
+}
+
+button#login1 {
+    background-color: #4267B2;
+    width: 400px;
+    height: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: ivory;
+    font-size: large;
+    margin: 10px;
+}
+
+button#create {
+    background-color: rgb(83, 207, 83);
+    width: 250px;
+    height: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: ivory;
+    font-size: large;
+    margin: 10px;
+}
+
+#ephone, #pass {
+    width: 400px;
+    height: 40px;
+    margin: 10px;
+}
+
+h1 {
+    color: #4267B2;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+hr { 
+    height:2px;
+    border-width:0;
+    color:gray;
+}
+
+#login > div {
+    color: #4267B2;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+}
